@@ -613,9 +613,11 @@ body {
   # Cta
   --------------------------------------------------------------*/
   .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+    padding: 80px 0;
+    background: url("../img/testimonials-bg.jpg") no-repeat;
+    background-position: center center;
     background-size: cover;
-    padding: 60px 0;
+    position: relative;
   }
   .cta h3 {
     color: #fff;
@@ -648,7 +650,7 @@ body {
   /*--------------------------------------------------------------
   # Testimonials
   --------------------------------------------------------------*/
-  .testimonials {
+  . {
     padding: 80px 0;
     background: url("../img/testimonials-bg.jpg") no-repeat;
     background-position: center center;
@@ -739,8 +741,8 @@ body {
   /* --------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
-  /* .team {
-    background: #fff;
+  .team {
+    background: rgba(0, 0, 0, 0.8);
     padding: 60px 0;
   }
   .team .member {
@@ -809,8 +811,8 @@ body {
   .team .member:hover .social {
     opacity: 1;
     bottom: 15px;
-  } */
-  
+  }
+   
   /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
