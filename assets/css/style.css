@@ -504,6 +504,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.row .img-fluid {
+  border-radius: 5%;
+}
 
 /*--------------------------------------------------------------
 # Clients
@@ -1051,10 +1054,15 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
-.contact{
+.contact {
   background: rgba(63, 62, 62, 0.596);
 }
-
+#canvasfor-googlemap img {
+  width: 100% ;
+  background: none !important;
+  font-size: inherit;
+  font-weight: inherit;
+}
 .contact .info {
   width: 100%;
   background: #fff;
