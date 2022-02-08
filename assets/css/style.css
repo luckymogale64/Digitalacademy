@@ -894,6 +894,7 @@ section {
   background-size: cover;
   position: relative;
 }
+
 .testimonials::before {
   content: "";
   position: absolute;
@@ -918,6 +919,7 @@ section {
   border-radius: 0%;
   border: px solid rgba(255, 255, 255, 0.15);
   margin: 20 auto;
+  
 }
 .testimonials .testimonial-item h3 {
   font-size: 20px;
