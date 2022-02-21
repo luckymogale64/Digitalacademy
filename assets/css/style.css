@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(102 102 102 / 27%);
 }
 #header .logo {
   font-size: 32px;
@@ -962,6 +962,31 @@ section {
     max-width: 100%;
   }
 }
+/* # Approach */
+
+.col-md-8 {
+  background-color:#ffc451;
+  border-radius: 5px;
+  border: px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 2px 15px rgb(209 212 25);
+  margin: 15px;
+}
+
+.mx-xl-4{
+  background-color:#ffc451;
+  border-radius: 5px;
+  border: px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 2px 15px rgb(209 212 25);
+  margin: 15px;
+}
+.col-lg-6.pt-4 .pt-lg-0 .order-2 .order-lg-1 .content .aos-init .aos-animate{
+  background-color:#ffc451;
+  border-radius: 5px;
+  border: px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1064,11 +1089,12 @@ section {
   padding: 60px 0;
 }
 .team .member {
+  width: 100%;
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
   background: rgba(63, 62, 62, 0.596);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .team .member .member-img {
   position: relative;
@@ -1136,7 +1162,9 @@ section {
 --------------------------------------------------------------*/
 
 .contact {
-  background: rgba(63, 62, 62, 0.596);
+  background: ("0000");
+  background-color:black;
+  background-size: contain;
 }
 #canvasfor-googlemap img {
   width: 100% ;
@@ -1439,6 +1467,7 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
 
 @-webkit-keyframes el_ZGzBn0a0mHG_Animation {
   60.67% {
@@ -2197,4 +2226,24 @@ section {
   -webkit-animation-name: el_ZGzBn0a0mHG_Animation;
   animation-name: el_ZGzBn0a0mHG_Animation;
   opacity: 0;
+}
+.DA_logo[_ngcontent-juy-c53] {
+  width: 100%;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 1rem !important;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-white {
+  color: #fff !important;
 }
