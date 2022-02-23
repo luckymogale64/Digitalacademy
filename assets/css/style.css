@@ -1079,7 +1079,7 @@ section {
 /* # Approach */
 
 .col-md-8 {
-  background-color:#ffc451;
+  background-color:#ffc451c7;
   border-radius: 5px;
   border: px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0px 2px 15px rgb(209 212 25);
@@ -1096,7 +1096,7 @@ section {
 }
 
 .mx-xl-4{
-  background-color:#ffc451;
+  background-color:#ffc451c7;
   border-radius: 5px;
   border: px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0px 2px 15px rgb(209 212 25);
